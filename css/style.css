@@ -25,8 +25,8 @@ nav a {
 
 .profile-pic {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 150px;  /* Adjust this value to resize the image */
+    height: auto;  /* This will maintain the aspect ratio */
     margin-right: 30px;
 }
 
