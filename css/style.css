@@ -73,6 +73,19 @@ footer {
     margin-top: 30px;
 }
 
+.cv-section {
+    text-align: center;
+    margin-top: 50px; /* Adjusts the vertical spacing */
+}
+
+.cv-section a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 18px;
+    color: blue;
+    text-decoration: underline;
+}
+
 .cv-download {
     text-align: center;
     margin-top: 20px;
