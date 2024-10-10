@@ -24,12 +24,15 @@ nav a {
 }
 
 .right-section {
+    flex-basis: 75%;
     max-width: 700px; /* Limits the width of the paragraph */
     margin: 0 20px;   /* Adds space on both sides */
     text-align: justify; /* Justifies the text for better readability */
+    line-height: 1.5;
 }
 
 .left-section {
+    flex-basis: 25%;
     margin-right: 50px; /* Adds space between the image and text */
 }
 
