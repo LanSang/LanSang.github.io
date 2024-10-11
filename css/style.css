@@ -109,12 +109,11 @@ footer {
 }
 
 .education-item {
-    display: grid;
-    grid-template-columns: 80px auto 100px; /* Align logo, details, and date */
-    grid-gap: 20px;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    margin-bottom: 15px;
-    width: 70%; /* Center the whole section */
+    margin-bottom: 10px;  /* Reduced space for a closer layout */
+    max-width: 80%;  /* Make sure it stays in the center */
     margin-left: auto;
     margin-right: auto;
 }
@@ -125,10 +124,15 @@ footer {
 }
 
 .education-details {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start; /* Aligns text more towards the left */
+    padding-right: 20px;  /* Adjusts space between degree and date */
 }
 
 .education-date {
-    text-align: right;
+    margin-left: 5px;  /* Reduces gap between degree and date */
     font-weight: bold;
+    text-align: left; /* Aligns the date with the degree */
+    white-space: nowrap; /* Ensures the date stays on one line */
 }
