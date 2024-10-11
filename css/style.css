@@ -99,29 +99,37 @@ footer {
 /* Education Section */
 .education-section {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .education-item {
     display: flex;
-    justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    max-width: 800px;
     margin-bottom: 20px;
 }
 
 .edu-logo {
-    width: 100px;
+    width: 80px;
     height: auto;
     margin-right: 20px;
 }
 
 .education-details {
-    flex-grow: 1;
     text-align: left;
+    flex-grow: 2;
 }
 
 .education-date {
     text-align: right;
+    flex-grow: 1;
     font-weight: bold;
-    white-space: nowrap;
 }
