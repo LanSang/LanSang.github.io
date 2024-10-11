@@ -125,11 +125,13 @@ footer {
 
 .education-details {
     text-align: left;
-    flex-grow: 2;
+    flex-grow: 1;
+    padding-right: 15px;
 }
 
 .education-date {
     text-align: right;
     flex-grow: 1;
     font-weight: bold;
+    margin-left: 10px;
 }
