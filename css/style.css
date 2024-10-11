@@ -95,3 +95,33 @@ footer {
     color: blue;
     text-decoration: underline;
 }
+
+/* Education Section */
+.education-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.education-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.edu-logo {
+    width: 100px;  /* Adjust size as necessary */
+    height: auto;
+    margin-right: 30px;
+}
+
+.experience {
+    flex: 2;
+    padding-right: 30px;
+    text-align: left;  /* Aligns text to the left */
+}
+
+.date {
+    flex: 1;
+    text-align: right;
+}
