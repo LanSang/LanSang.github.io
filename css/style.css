@@ -102,25 +102,43 @@ footer {
     margin-top: 40px;
 }
 
+.education-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
 .education-item {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    width: 80%;
 }
 
 .edu-logo {
-    width: 100px;
+    width: 80px;
     height: auto;
     margin-right: 20px;
 }
 
 .education-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     text-align: left;
-    flex: 1;
 }
 
 .education-date {
     margin-left: 20px;
     font-weight: bold;
+}
+
+footer {
+    background-color: #f8f8f8;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
 }
