@@ -110,29 +110,26 @@ footer {
 
 .education-item {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    margin-bottom: 10px;  /* Reduced space for a closer layout */
-    max-width: 80%;  /* Make sure it stays in the center */
-    margin-left: auto;
-    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 80%;
+    max-width: 1000px;
 }
 
 .edu-logo {
     width: 80px;
     height: auto;
+    margin-right: 30px;
 }
 
 .education-details {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start; /* Aligns text more towards the left */
-    padding-right: 20px;  /* Adjusts space between degree and date */
+    text-align: left;
+    flex-grow: 1;
 }
 
 .education-date {
-    margin-left: 5px;  /* Reduces gap between degree and date */
     font-weight: bold;
-    text-align: left; /* Aligns the date with the degree */
-    white-space: nowrap; /* Ensures the date stays on one line */
+    margin-left: 20px;
+    padding-left: 10px;
 }
